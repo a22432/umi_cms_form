@@ -103,16 +103,13 @@ if(isset($_POST['g-recaptcha-response'])) {
 		$mailer->isHTML(true);
 		$mailer->CharSet = 'utf-8';
 		
-		$mailer->AddAddress('gos-mcd@yandex.ru', 'Администратор');//
-		$mailer->AddBCC('gos-mcd@yandex.ru', 'Администратор');// a22432@ya.ru //gos-mcd@yandex.ru
+		$mailer->AddAddress('test@yandex.ru', 'Администратор');
+		$mailer->AddBCC('test@yandex.ru', 'Администратор');
 		if($email){
 			$mailer->setFrom($email, $name);
 		}
-		
-		
-		
-		//$mailer->AddAddress('magnitniezahvati@bk.ru', 'Администратор');
-		//$mailer->AddBCC('magnitniezahvati@bk.ru', 'Администратор');
+		//$mailer->AddAddress('test@yandex.ru', 'Администратор');
+		//$mailer->AddBCC('test@yandex.ru', 'Администратор');
 		
 		$result['recapcha'] = true; // капча пройдена
 		
