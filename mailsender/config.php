@@ -12,8 +12,8 @@ $site['smtp_port'] = null;
 $site['smtp_username'] = null;
 
 
-$conf_reCaptcha["public_key"] = '6Lf618UZAAAAAI0GCul5jlicz4CPmHb2VCvw10VJ';
-$conf_reCaptcha["private_key"] = '6Lf618UZAAAAAL_Is3AZrylMX93FXG_PUYNaPaGi';
+$conf_reCaptcha["public_key"] = '6Lf618UZAAAAAI0GCul5jFcz4CPmHb2VCvw10EV';
+$conf_reCaptcha["private_key"] = '6Lf618UZAAAAAL_IsFAZry5lMX93FXG_PUYNaPaGi';
 
 
 ?>
